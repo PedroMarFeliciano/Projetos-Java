@@ -21,7 +21,7 @@ public class NotasSala {
 		
         Scanner sc = new Scanner(System.in);		
 		
-	System.out.println("Quantos alunos essa classe possui? (max. 100 alunos)");
+	System.out.println("Quantos alunos essa classe possui?");
 	numAlunos = sc.nextInt();
 		
 	Classe classe = new Classe(numAlunos);

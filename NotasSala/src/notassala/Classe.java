@@ -18,11 +18,13 @@ public class Classe {
     private float media = 0;
     private float somaNotas = 0;
 	
-    Aluno[] alunos = new Aluno[100];
+    Aluno[] alunos;
     Scanner sc = new Scanner(System.in);
 	
     Classe(int numAlunos){
 	this.numAlunos = numAlunos;
+        
+        alunos = new Aluno[numAlunos];
     }
 	
     public void atribuiNotas(){
